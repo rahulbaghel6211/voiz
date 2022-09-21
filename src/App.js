@@ -33,12 +33,10 @@ const options=[
   {label:'brown',value:'brown'},
   {label:'white',value:'white'},
 ]
-
 function onChangeInput(value){
   console.log(value);
 }
 function App() {
- 
   return (
     <div style={styles.app}>
       <CustomSelect isMulti={true} style={styles.select} defaultValue={[options[3]]} onChange={onChangeInput} options={options} label="Your Favourite Colour" />
@@ -46,5 +44,4 @@ function App() {
   
   ); 
 }
-
 export default App;
