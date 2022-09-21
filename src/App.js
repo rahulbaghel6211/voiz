@@ -1,9 +1,6 @@
 import './App.css';
-
 import React from 'react';
-
 import CustomSelect from './CustomSelect';
-
 const styles={
   app:{
     backgroundColor:'black',
